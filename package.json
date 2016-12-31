@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "lodash": "^4.17.3",
+    "request": "^2.79.0",
+    "web3": "^0.17.0-beta",
+    "websocket": "^1.0.24"
+  }
+}
