@@ -4,7 +4,7 @@ var web3 = new Web3(new Web3.providers.HttpProvider(process.env.ETHEREUM_RPC_URL
 var _ = require('lodash');
 
 var WebSocketServer = require('websocket').server;
-var http = require('http');
+var http = require('https');
  
 var server = http.createServer(function(request, response) {
     response.writeHead(404);
