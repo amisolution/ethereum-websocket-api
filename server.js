@@ -6,7 +6,9 @@ var _ = require('lodash');
 var WebSocketServer = require('websocket').server;
 var http = require('https');
  
-var server = http.createServer(function(request, response) {
+var server = http.createServer({
+  ssl: true,
+}, function(request, response) {
     response.writeHead(404);
     response.end();
 });
